@@ -1,1 +1,128 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Menlo, Monaco, Consolas, \"Droid Sans Mono\", \"Inconsolata\", \"Courier New\", monospace",
+  "editor.tokenColorCustomizations": {
+"textMateRules": [
+  {
+    "scope": [
+      // all comment types
+      "comment",
+
+      // true, false, null
+      "constant.language",
+
+      // import, from, export, default, return, if, for, break, continue, try, catch, finally,
+      // throw, default, yield, await
+      "keyword.control",
+
+      // in, void, delete, instanceof
+      "keyword.operator.expression",
+
+      // debugger
+      "keyword.other",
+
+      // new
+      "keyword.operator.new",
+
+      // super, this, arguments
+      "variable.language",
+
+      // attributes in html, jsx, etc.
+      "entity.other.attribute-name",
+
+      // static, extends, async, private, public, implements
+      // constructor, const, let, var, enum, class, function, interface
+      // no explicit scopes for constructor, const, let, var
+      // also no explicit scope for function without the arrow
+      // therefore we enable all storage and explictly exclude the arrow in another scope
+      "storage",
+
+      // // no explicit scope for the eval keyword yet
+      // // can be targeted with the scope below, but scope is too broad
+      // "support.function",
+
+      // // no explicit scope for the package keyword yet
+      // // can be targeted with the scope below, but scope is too broad
+      // "variable.other.readwrite",
+    ],
+    "settings": {
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "scope": [
+      // function keyword does not have an explicit scope without the arrow
+      // therefore we explictly exclude the function arrow from being italicized
+      "storage.type.function.arrow",
+    ],
+    "settings": {
+      "fontStyle": ""
+    }
+  }
+]
+  },
+  "editor.mouseWheelZoom": true,
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/.idea": true,
+    "**/.vs": true,
+    "**/.sourcemaps": true,
+    "**/.cache-loader": true,
+    "**/.parcel-cache": true,
+  },
+  "editor.minimap.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF, CaskaydiaCove Nerd Font, monospace",
+  "git.openRepositoryInParentFolders": "never",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "codesnap.showWindowTitle": true,
+  "codesnap.transparentBackground": true,
+  "editor.fontSize": 14,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Aura Dracula Spirit",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "terminal.integrated.fontSize": 14,
+  "redhat.telemetry.enabled": true,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "editor.cursorBlinking": "expand",
+  "editor.guides.indentation": false,
+}
 
