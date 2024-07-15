@@ -1,5 +1,5 @@
 {
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Menlo, Monaco, Consolas, \"Droid Sans Mono\", \"Inconsolata\", \"Courier New\", monospace",
   "editor.tokenColorCustomizations": {
 "textMateRules": [
@@ -118,11 +118,20 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "terminal.integrated.fontSize": 14,
   "redhat.telemetry.enabled": true,
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.guides.indentation": false,
+  "workbench.editor.showTabs": "none",
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "workbench.activityBar.location": "bottom",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "fontSize": 12,
+    "height": 22
+  }
 }
-
